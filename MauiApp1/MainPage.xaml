@@ -4,18 +4,18 @@
              x:Class="MauiApp1.MainPage">
 
 
-    <StackLayout VerticalOptions="CenterAndExpand">
+    <StackLayout VerticalOptions="End" HorizontalOptions="CenterAndExpand">
         <Button Text="台灣總督府" Clicked="OnSecButtonClicked"
-                BackgroundColor="#F6D48F" TextColor="White"/>
+                BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
         
         <Button Text="台北州廳" Clicked="OnThiButtonClicked"
-        BackgroundColor="#F6D48F" TextColor="White"/>
+        BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
 
         <Button Text="台中州廳" Clicked="OnFouButtonClicked"
-        BackgroundColor="#F6D48F" TextColor="White"/>
+        BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
 
         <Button Text="台南州廳" Clicked="OnFivButtonClicked"
-        BackgroundColor="#F6D48F" TextColor="White"/>
+        BackgroundColor="#F6D48F" TextColor="White" WidthRequest="400" HeightRequest="80"/>
 
 
     </StackLayout>
